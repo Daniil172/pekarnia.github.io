@@ -213,3 +213,51 @@ footer {
 	text-align: center;
 	font-family: Monotype Corsiva Regular;
 }
+@media (max-width: 768px) {
+    header .Шапка-текст {
+        font-size: 20px;
+    }
+
+    header .Шапка-ссылки a {
+        font-size: 16px;
+    }
+
+    .text-main1, .text-main2 {
+        font-size: 16px;
+    }
+
+    .product img {
+        max-width: 100%;
+    }
+
+    footer .footer-text1 {
+        font-size: 14px;
+    }
+
+    footer .footer-text2 {
+        font-size: 18px;
+    }
+
+    footer .footer-text3 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    header .Шапка-ссылки li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .product img {
+        width: 100%;
+    }
+
+    footer .footer-text1, footer .footer-text2, footer .footer-text3 {
+        font-size: 14px;
+    }
+
+    footer .mailto {
+        font-size: 16px;
+    }
+}
